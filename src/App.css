@@ -1,0 +1,245 @@
+*{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 100;
+  margin: 0;
+  box-sizing: border-box;
+
+ 
+}
+.heading{
+  display: flex;
+  font-size: 15px;
+  background-color: #000000;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 2px;
+  
+ 
+}
+.moviechoosing{
+  font-size: 22px;
+color: #a36507;
+margin-top: 40px;
+margin-bottom: 10px;
+margin-left: 10px;
+font-weight: 700;
+text-align: center;
+}
+
+.movie-selection{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.movie-poster{
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+.movie-title {
+  font-size: 15px;
+ font-weight: bold;
+  color: #061b84;
+  padding: 10px;
+  text-align: center;
+
+}
+.movie-details button{
+  background-color: #324d58;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+
+  
+}
+.screen-selection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.screen-selection .screen {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  
+  transition: all 0.2s;
+  padding:1rem;
+  text-align: center;
+}
+.my{
+  font-size: 40px;
+  font-weight: bold;
+  color: #b99212;
+  
+}
+.screen-selection .screen:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+.screen-selection .screen:not(.available){
+  background-color:#ffffff;
+  color: #444;
+  cursor: not-allowed;
+}
+.choose-screen{
+  font-size: 22px;
+color: #a36507;
+margin-top: 40px;
+text-align: center;
+margin-left: 10px;
+font-weight: 700;
+}
+.screen-selection .screen-number {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #540202;
+}
+.screen-selection .screen-time{
+  font-size: 1.2rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.screen-selection .screen-seats{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.screen-selection .screen-seats .seat{
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.2s;
+  
+}
+.screen-selection  .seat.selected{
+  background-color: rgb(12, 42, 123);
+  color: white;
+}
+
+.screen-selection .screen.selected {
+  background-color: rgb(143, 152, 155);
+  color: white;
+}
+.screen-selection .screen-seats .seat:not(.available){
+  background-color:rgba(87, 66, 66, 0.625);
+  color:#ffffff;
+  cursor: not-allowed;
+} 
+.payment-button{
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: rgb(0, 27, 161);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  
+}
+.payment-button:hover{
+  transform: scale(1.09);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.payment-button:disabled{
+  cursor: not-allowed;
+  background-color: rgb(0, 0, 0);
+  color: #a31306;
+  transform: scale(1.0);
+}
+.booking-summary{
+ background-color: #3f6773;
+margin: 10px;
+ color: white;
+ padding: 10px;
+ border-radius: 10px;
+
+ }
+
+.booking{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   text-align: center;
+ 
+}
+.booking-summary p{
+  padding: 10px;
+  text-align: justify;
+}
+.booknow{
+  text-align: center;
+}
+.moredetails img{
+  width: 150px;
+  height:150px ;
+  border-radius: 100%;
+  margin-bottom: 10px;
+ 
+  
+}
+.moredetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+  
+    
+}
+.more{
+  text-align: center;
+  font-size: 22px;
+color: #a36507;
+margin-top: 40px;
+margin-bottom: 10px;
+margin-left: 10px;
+font-weight: 700;
+}
+.moviename{
+
+  
+  font-size: 22px;
+color: #c7b70c;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 10px;
+font-weight: bold;
+text-align: center;
+
+}
+.rating{
+  font-size: 20px;
+  padding: 30px;
+  text-align: center;
+}
+.moviedetail{
+  background-color: #220403;
+ 
+  color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+
+}
+.moredetail{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.morebtn button{
+  padding: 10px 20px;
+}
